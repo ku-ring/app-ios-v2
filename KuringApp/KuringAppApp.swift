@@ -14,7 +14,22 @@ import Satellite
 struct KuringAppApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            TabView {
+                DepartmentSelector(
+                    store: .init(
+                        initialState: .init(),
+                        reducer: { Major() }
+                    )
+                )
+
+                KuringIDField(
+                    store: .init(
+                        initialState: .init(),
+                        reducer: { KuringIDGenerator() }
+                    )
+                )
+            }
+            .tabViewStyle(.page(indexDisplayMode: .never))
         }
     }
     

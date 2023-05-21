@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A9303D742A1A159200336255 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9303D732A1A159200336255 /* SignUpView.swift */; };
+		A9303D762A1A159A00336255 /* SignUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9303D752A1A159A00336255 /* SignUp.swift */; };
+		A9303D792A1A1B0300336255 /* DepartmentSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9303D782A1A1B0300336255 /* DepartmentSelector.swift */; };
+		A9303D7B2A1A1B3600336255 /* Major.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9303D7A2A1A1B3600336255 /* Major.swift */; };
+		A9303D7E2A1A2C0700336255 /* KuringLink.KuringApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9303D7D2A1A2C0700336255 /* KuringLink.KuringApp.swift */; };
+		A9303D812A1A2C5200336255 /* KuringIDGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9303D802A1A2C5200336255 /* KuringIDGenerator.swift */; };
+		A9303D832A1A2C6300336255 /* KuringIDField.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9303D822A1A2C6200336255 /* KuringIDField.swift */; };
 		A95DE7422A18C24D00FB1BF7 /* KuringAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A95DE7412A18C24D00FB1BF7 /* KuringAppApp.swift */; };
 		A95DE7442A18C24D00FB1BF7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A95DE7432A18C24D00FB1BF7 /* ContentView.swift */; };
 		A95DE7462A18C24E00FB1BF7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A95DE7452A18C24E00FB1BF7 /* Assets.xcassets */; };
@@ -48,6 +55,13 @@
 
 /* Begin PBXFileReference section */
 		A9303D722A18D62100336255 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		A9303D732A1A159200336255 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		A9303D752A1A159A00336255 /* SignUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUp.swift; sourceTree = "<group>"; };
+		A9303D782A1A1B0300336255 /* DepartmentSelector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepartmentSelector.swift; sourceTree = "<group>"; };
+		A9303D7A2A1A1B3600336255 /* Major.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Major.swift; sourceTree = "<group>"; };
+		A9303D7D2A1A2C0700336255 /* KuringLink.KuringApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KuringLink.KuringApp.swift; sourceTree = "<group>"; };
+		A9303D802A1A2C5200336255 /* KuringIDGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KuringIDGenerator.swift; sourceTree = "<group>"; };
+		A9303D822A1A2C6200336255 /* KuringIDField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KuringIDField.swift; sourceTree = "<group>"; };
 		A95DE73E2A18C24D00FB1BF7 /* KuringApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KuringApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A95DE7412A18C24D00FB1BF7 /* KuringAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KuringAppApp.swift; sourceTree = "<group>"; };
 		A95DE7432A18C24D00FB1BF7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -100,6 +114,36 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A9303D772A1A159E00336255 /* Authorization */ = {
+			isa = PBXGroup;
+			children = (
+				A9303D732A1A159200336255 /* SignUpView.swift */,
+				A9303D752A1A159A00336255 /* SignUp.swift */,
+				A9303D7F2A1A2C3800336255 /* KuringIDGenerator */,
+				A9303D7C2A1A2BEC00336255 /* Major */,
+				A9303D7D2A1A2C0700336255 /* KuringLink.KuringApp.swift */,
+			);
+			path = Authorization;
+			sourceTree = "<group>";
+		};
+		A9303D7C2A1A2BEC00336255 /* Major */ = {
+			isa = PBXGroup;
+			children = (
+				A9303D782A1A1B0300336255 /* DepartmentSelector.swift */,
+				A9303D7A2A1A1B3600336255 /* Major.swift */,
+			);
+			path = Major;
+			sourceTree = "<group>";
+		};
+		A9303D7F2A1A2C3800336255 /* KuringIDGenerator */ = {
+			isa = PBXGroup;
+			children = (
+				A9303D802A1A2C5200336255 /* KuringIDGenerator.swift */,
+				A9303D822A1A2C6200336255 /* KuringIDField.swift */,
+			);
+			path = KuringIDGenerator;
+			sourceTree = "<group>";
+		};
 		A95DE7352A18C24D00FB1BF7 = {
 			isa = PBXGroup;
 			children = (
@@ -128,6 +172,7 @@
 				A9303D722A18D62100336255 /* Info.plist */,
 				A95DE7412A18C24D00FB1BF7 /* KuringAppApp.swift */,
 				A95DE7432A18C24D00FB1BF7 /* ContentView.swift */,
+				A9303D772A1A159E00336255 /* Authorization */,
 				A95DE7452A18C24E00FB1BF7 /* Assets.xcassets */,
 				A95DE7472A18C24E00FB1BF7 /* KuringApp.entitlements */,
 				A95DE7482A18C24E00FB1BF7 /* Preview Content */,
@@ -327,7 +372,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A9303D792A1A1B0300336255 /* DepartmentSelector.swift in Sources */,
+				A9303D7B2A1A1B3600336255 /* Major.swift in Sources */,
 				A95DE7442A18C24D00FB1BF7 /* ContentView.swift in Sources */,
+				A9303D7E2A1A2C0700336255 /* KuringLink.KuringApp.swift in Sources */,
+				A9303D762A1A159A00336255 /* SignUp.swift in Sources */,
+				A9303D742A1A159200336255 /* SignUpView.swift in Sources */,
+				A9303D832A1A2C6300336255 /* KuringIDField.swift in Sources */,
+				A9303D812A1A2C5200336255 /* KuringIDGenerator.swift in Sources */,
 				A95DE7422A18C24D00FB1BF7 /* KuringAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
